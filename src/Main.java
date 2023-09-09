@@ -15,9 +15,9 @@ public class Main {
         String frase = """
                 Exercício final do Capitulo 20
                 Expressões Lambdas
-                
+                                
                 Aluno: Juliano Martins de Souza
-                
+                                
                 """;
         System.out.println(frase);
 
@@ -25,12 +25,12 @@ public class Main {
 
         String path = "d:\\workspace\\arquivo\\funcionarios.txt";
 
-        try(BufferedReader ler = new BufferedReader(new FileReader(path))){
+        try (BufferedReader ler = new BufferedReader(new FileReader(path))) {
 
             String linha = ler.readLine();
             List<Funcionarios> func = new ArrayList<>();
 
-            while(linha != null){
+            while (linha != null) {
                 String[] vetor = linha.strip().split(",");
                 String nome = vetor[0];
                 String email = vetor[1];
@@ -59,9 +59,9 @@ public class Main {
             System.out.printf("\nSoma do salario dos funcinários com a letra 'L': R$ %.2f", soma);
 
 
-
         } catch (FileNotFoundException e) {
-            System.out.println("ERROR => " + e);;
+            System.out.println("ERROR => " + e);
+            ;
         } catch (IOException e) {
             System.out.println("ERROR => " + e);
         }
