@@ -1,0 +1,17 @@
+
+        Fazer um programa para ler os dados (nome, email e salario) de funcionários a partir de um arquivo no formato
+    .csv.
+        Em seguida mostrar, em ordem alfabética, o emial dos funcionários cujo salário seja superior a um dado valor
+    fornecido pelo usuário.
+
+        Mostrar também a soma dos salários dos funcinoários cujo nome começa com a letra "M".
+
+
+Arquivo:
+
+Juliano,julianoMarthins@yahoo.com.br,3200.00
+Thiele,thieletitita@uol.com.br,1900.00
+Larissa,lalaMarota@gmail.com,1700.00
+Alvaro,arvoo88@terra.com.br,3500.00
+Clair,claclamutema@.com,2800.00
+
